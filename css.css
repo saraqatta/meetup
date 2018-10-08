@@ -1,0 +1,459 @@
+
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+	background-color: white;
+	background-size: 100%;
+	color: white;
+	background-repeat: no-repeat;
+
+}
+
+.herosection{
+	width: 100%;
+	height: 775px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	background-image: url("img/backg1.png");
+
+	
+	
+	
+}
+
+                          /*------------------- menu start -----------------*/
+nav{
+width: 100%;
+	height: 113px;
+}
+
+.logo {
+	width: 50%;
+	float: left;
+	height: auto;
+}
+
+.logo a img{
+   
+	margin-left:130px;
+    margin-top: 29.5px;
+}
+
+
+a {
+    display: inline-block;
+}
+
+.menu{
+	float: right;
+	width: 50%;
+	height: auto;
+	text-align: right;
+
+	
+}
+
+.menu ul{
+	list-style-type: none;
+	position: absolute;
+    margin-top: 47px;
+    margin-left: 0px;
+}
+
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu ul li:first-child a {
+	margin-left: 0px;
+	text-decoration: underline;
+	
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.clear{
+	clear: both;
+}
+
+
+img.time {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+.form{
+	width: 400px;
+	height: 440px;
+	box-shadow: 0px 0px 1px 1px #ccc;
+	background-color: white;
+	margin-left: 793px;
+    margin-top: 379px;
+    border: 0px;
+}
+
+.form h2{
+	color: black;
+	text-align: center;
+	    font-size: 30px;
+	    padding-top: 26px;
+}
+
+input {
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
+    margin-bottom: 20px;
+	padding-left: 20px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: #90d23d;
+	cursor: pointer;
+	border: .5px;}
+
+
+	.form p {
+    color: black;
+    font-size: 12px;
+    width: 194px;
+    margin-left: 113px;
+    margin-top: -10px;
+
+}
+.section1 {
+    width: 100%;
+    height: 350px;
+}
+
+.containt{
+	width: 500px;
+	margin-left: 160px;
+
+}
+
+.containt h1, .containt p{
+	color: black;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.containt p{
+	font-size: 14px;
+}
+
+.section2 {
+    width: 100%;
+    height: 964px;
+}
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.side{
+	width: 33.3%;
+	height: 450px;
+	float: left;
+	padding-bottom: 80px;
+
+}
+
+.side h3{
+	color: black;
+	text-align: center;
+}
+
+.side p{
+	font-size: 14px;
+	width: 300px;
+	color: black;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.side img{
+	    margin-left: 85px;
+
+}
+
+.table{
+	width: 100%;
+	height: 55px;
+	background-color: #90d23d;
+	
+}
+
+.table.a{
+	background-color: #373737;
+}
+
+.table.b{
+	background-color: #4b4d4f;
+}
+
+.table.c{
+	border-radius: 10px 10px 0 0;
+}
+
+.table.c h2, .table.c h3{
+	color: white;
+	display: inline-block;
+    font-size:30px;
+	font-weight: bold;
+	margin-top: -1px;
+	    margin-bottom: 0;
+
+
+}
+
+.table:last-child{
+	border-radius: 0 0 10px 10px;
+	    margin-bottom: 60px;
+
+}
+
+.title{
+	width: 20%;
+	float: left;
+	margin-top: 6px;
+	text-align: center;
+}
+
+
+.title1{
+	width: 80%;
+	float: left;
+	margin-top: 6px;
+	text-align: center;
+}
+
+img.d {
+    position: absolute;
+    margin-left: -92px;
+    margin-top: 10px;
+}
+
+.table p, .table span{
+	margin-top: 16px;
+    margin-bottom: 0;
+	font-size: 16px;
+
+}
+
+
+a.d {
+    position: absolute;
+    margin-left: -93px;
+    margin-top: 10px;
+}
+
+.p{
+margin: 0 auto;}
+
+p.p{
+	margin-top: 20px;
+	width: 80%;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+/*----------------------------------- end --------------------------------*/
+.section3{
+	width: 100%;
+	height: 700px;
+	background-image: url("img/back2.png");
+}
+
+img.pic{
+	position: absolute;
+}
+
+
+.containt1 {
+	    width: 500px;
+    height: 600px;
+    margin-left: 524px;
+    margin-top: 104px;
+    position: absolute;
+}
+
+
+.containt1 p{
+	font-size: 16px;
+	opacity: .5px;	
+	font-weight: normal;
+}
+
+
+.containt1 button{
+	width: 200px;
+	border-radius: 10px;
+	color: white;
+}
+
+/*----------------------------- end ------------------------------*/
+.section4{
+	width: 100%;
+	height: 330px;
+}
+
+h2.pargh, p.pargh{
+	color: black;
+	text-align: center;
+}
+img.pargh {
+    position: absolute;
+    margin-left: 857px;
+    margin-top: -418px;
+}
+.text {
+    margin-top: 160px;
+}
+
+
+/*---------------------- end -----------------------*/
+.section5{
+	width: 100%;
+	height: 660px;
+	background-image:url("img/back3.png");
+}
+
+.message{
+	width: 800px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    margin-left: 267px;
+    margin-top: 137px;
+	
+}
+
+
+.left {
+    width: 60%;
+	margin-top: 50px;
+	float: left;
+
+}
+
+.left h2{
+	width: 280px;
+	color: black;
+	font-size:14px;
+	margin-left: 50px;
+}
+
+.left button{
+	    width: 144px;
+    border-radius: 10px;
+    margin-left: -110px;
+    color: white;
+    margin-top: 39px;
+    cursor: pointer;
+}
+.left img{
+	margin-left: -105px;
+}
+
+.right{
+	width: 40%;
+	float: left;
+	margin-left: -85px;
+    margin-top: 61px;
+}
+
+.right input{
+	    width: 373px;
+    margin-left: 0px;
+	border: 1px solid #90d23d;
+
+}
+
+.right button{
+	background-color:#373737;
+	width: 373px;
+	height: 50px;
+	color: white;
+	cursor: pointer;
+	margin-top: 15px;
+
+}
+
+
+/*------------------------------ end -------------------------*/
+
+p.copy{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	opacity: .5;
+	font-weight: normal;
+	text-align: left;
+	margin-left: 115px;
+    margin-top: 50px;
+	display: inline-block;
+
+}
+
+.social {
+float: right;
+	margin-right: 115px;
+	margin-top: 50px;
+	font-size: 15px;
+	color: aliceblue;
+}
+
+.social i{
+	color: aliceblue;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.social i:hover{
+	color:#90d23d;
+}
+
+
+
+.footer {
+    background-color: #373737;
+	width: 100%;
+    height: 110px;
+}
+
+
+
+
+
+
+
+
+
